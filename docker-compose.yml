@@ -1,0 +1,16 @@
+services:
+
+  db:
+    image: postgres:15.2-alpine
+    environment:
+      POSTGRES_DB: onlineorder
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - onlineorder-pg-local:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+#    if your port winfow is closed, type"5433" for the left
+
+
+volumes:
+  onlineorder-pg-local:
