@@ -1,4 +1,5 @@
-# 🍔 OnlineOrder
+
+# 🍔 OnlineOrder --- Lai's Bootcamp frontend-backend project, contributor: Xuanbo Zhao, Lai's Officer;
 
 A full-stack food ordering web application built with **Spring Boot** and **React**. Users can browse restaurants and menus, add items to their cart, and check out — all secured with session-based authentication.
 
@@ -34,7 +35,8 @@ OnlineOrder lets customers:
 
 The React frontend is compiled into static files and served directly by Spring Boot, so the whole application ships as a single JAR.
 
-![Browse Restaurants](https://placehold.co/900x500/f9f9f9/333333?text=📷+Restaurant+List+Screenshot)
+
+<img width="1825" height="1365" alt="Screenshot 2026-05-24 at 17 43 45" src="https://github.com/user-attachments/assets/5e31eb14-4d50-4159-ab67-05462d75cb0c" />
 
 ---
 
@@ -84,7 +86,7 @@ HTTP Request
 
 The React frontend is bundled into `src/main/resources/public/` and served as static content by the embedded Tomcat server.
 
-![Architecture Diagram](https://placehold.co/900x420/e8f4fd/1a73e8?text=📷+Architecture+Diagram)
+<img width="1002" height="610" alt="Screenshot 2026-05-24 at 16 58 14" src="https://github.com/user-attachments/assets/d4300a2a-387d-48df-a2a0-1581141471ca" />
 
 ---
 
@@ -204,8 +206,8 @@ All cart endpoints require an authenticated session.
 }
 ```
 
-![Cart UI](https://placehold.co/900x500/fff8f0/ff6b35?text=📷+Cart+Screenshot)
 
+<img width="1829" height="1363" alt="Screenshot 2026-05-24 at 17 44 22" src="https://github.com/user-attachments/assets/a0cc7cdb-bc5a-43bf-be26-00530bc82355" />
 ---
 
 ## Getting Started
